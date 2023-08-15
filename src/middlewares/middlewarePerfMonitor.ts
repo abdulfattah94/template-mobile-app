@@ -18,6 +18,7 @@ const middlewarePerfMonitor: Middleware<RootState, AnyAction> =
         request.metadata = { httpMetric };
 
         if (isLogin) {
+          // phoneNumber disesuaikan
           httpMetric.putAttribute('userId', phoneNumber);
         }
 
@@ -35,6 +36,7 @@ const middlewarePerfMonitor: Middleware<RootState, AnyAction> =
           const { httpMetric } = response.config.metadata;
 
           if (isLogin) {
+            // phoneNumber disesuaikan
             httpMetric.putAttribute('userId', phoneNumber);
           }
 
@@ -52,6 +54,7 @@ const middlewarePerfMonitor: Middleware<RootState, AnyAction> =
           const { httpMetric } = error.config.metadata;
 
           if (isLogin) {
+            // phoneNumber disesuaikan
             httpMetric.putAttribute('userId', phoneNumber);
           }
 

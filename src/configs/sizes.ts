@@ -13,6 +13,7 @@ export default {
   text: {
     xs: {
       size: 10,
+      lineHeight: 0,
       regular: {
         fontWeight: '400',
       },
@@ -28,6 +29,7 @@ export default {
     },
     s: {
       size: 12,
+      lineHeight: 0,
       regular: {
         fontWeight: '400',
       },
@@ -43,6 +45,7 @@ export default {
     },
     m: {
       size: 14,
+      lineHeight: 0,
       regular: {
         fontWeight: '400',
       },
@@ -58,6 +61,7 @@ export default {
     },
     l: {
       size: 16,
+      lineHeight: 0,
       regular: {
         fontWeight: '400',
       },
@@ -73,6 +77,7 @@ export default {
     },
     xl: {
       size: 20,
+      lineHeight: 0,
       regular: {
         fontWeight: '400',
       },
@@ -88,6 +93,7 @@ export default {
     },
     xxl: {
       size: 24,
+      lineHeight: 0,
       regular: {
         fontWeight: '400',
       },
@@ -103,6 +109,7 @@ export default {
     },
     xxxl: {
       size: 32,
+      lineHeight: 0,
       regular: {
         fontWeight: '400',
       },
@@ -116,5 +123,15 @@ export default {
         fontWeight: '900',
       },
     },
+  },
+  fontFamily: {
+    regular: 'Satoshi-Regular',
+    medium: 'Satoshi-Medium',
+    heavy: 'Satoshi-Medium',
+    bold: 'Satoshi-Bold',
+    italicBold: 'Satoshi-BoldItalic',
+    fontFamily: 'Satoshi-Regular',
+    italic: 'Satoshi-Italic',
+    black: 'Satoshi-Black',
   },
 };

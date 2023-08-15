@@ -12,3 +12,8 @@ src\middlewares
 src\modules
 src\stores
 src\utils\httpClient.ts
+src\navigation
+.env.development
+.env.production
+
+# sisanya tinggal atur codepush, one signal
